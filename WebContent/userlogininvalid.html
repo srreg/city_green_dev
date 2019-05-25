@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>City Green</title>
+	<link rel="shortcut icon" type="image/gif/png" href="logot.png"/>
+<link rel="stylesheet" type="text/css" href="userlogininvalid.css"/>
+</head>
+<body>
+	<header>
+		<a href="cityhome.html" style="cursor: pointer"><img class="logo" src="logot.png"></a>
+		<a class="title" href="cityhome.html">City Green</a>
+	</header>
+	<div class="pagebody">
+		<form action= "userlogin" method="post">
+			<div class="div1">
+				<div class="loginhead">
+					<h2 class="login">Login</h2>
+					<h3 class="to">to Continue</h3><br>
+				</div>
+				<script type="text/javascript">
+				function mouseoverPass(obj) {
+					var obj = document.getElementById('myPassword');
+					obj.type = "text";
+				}
+				function mouseoutPass(obj) {
+					var obj = document.getElementById('myPassword');
+					obj.type = "password";
+				}
+				</script>
+				<div class="loginbody">
+					<div class="signup">
+						<h3 class="msg">Don't have a City Green account?<a class="signuplink" href="UserSignup.html"> Sign Up</a></h3>
+					</div><br>
+					<p style="color: #464646; letter-spacing: 1px;">&nbsp;&nbsp;User Id</p>
+					<input class="inputvalue" title="Enter Mobile Number or Mail Id" type="text" name="userid"/><br><br>
+					<p style="color: #464646; letter-spacing: 1px;">&nbsp;&nbsp;Password</p>
+					<input class="pswd" title="Enter Password here" type="password" id="myPassword" name ="pswd"/>
+					<img src="pswdeye.png" onclick="mouseoverPass();" onmouseout="mouseoutPass();"/>
+					<a class="forgot" href="forgotpswd.html"><b>Forgot Password ?</b></a>
+					<br>&nbsp;<input class="continue" title="Press Continue to Log In" type="Submit" value="Continue"/><br><br>
+					<p class="invalidmsg">*Invalid credentials, please try again .&nbsp;.&nbsp;.</p>
+					<br><br><br>
+				</div>
+			</div><br>							
+		</form>
+	</div>
+</body>
+</html>

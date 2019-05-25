@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="UserSignup.css"/>
+<title>City Green</title>
+	<link rel="shortcut icon" type="image/gif/png" href="logot.png"/>
+</head>
+<body>
+	<header>
+		<a href="cityhome.html" style="cursor: pointer"><img class="logo" src="logot.png"></a>
+		<a class="title" href="cityhome.html"> City Green</a>
+	</header>
+		<div class="pagebody">
+		<form action= "signup" method="post">
+			<div class="div1">
+				<div class="signuphead">
+					<h2 class="get">Get</h2>
+					<h3 class="to">Started</h3><br>
+				</div>
+				<div class="signupbody">
+					<div class="login">
+						<h3 class="msg">Already have an account?<a class="loginlink" href="UserLogin.html"> Log In</a></h3>
+					</div><br>
+					<input class="inputs" title="Enter Name" placeholder=&nbsp;Name type="text" name="name" required="required"/>
+					<input class="inputs" title="Enter Email" placeholder=&nbsp;Email type="email" name="email" required="required"/>
+					<input class="inputs" title="Enter Contact Number" placeholder=&nbsp;Phone type="number" pattern="[789][0-9]{9}" required="required" name="contactnumber"/>
+					<input class="inputs" title="Enter Location" placeholder=&nbsp;Location type="text" name="location" required="required"/>
+					<input class="inputs" title="Enter Gender" placeholder=&nbsp;Gender type="text" name="gender" required="required"/>
+					<input class="inputs" title="Enter Password" id="myPassword" placeholder=&nbsp;Password type="password" name="pswd" required="required"/>
+					<input class="continue" title="Press Continue to Sign Up" type="Submit" value="Continue"/>
+					<img class="eye" src="pswdeye.png" onclick="mouseoverPass();" onmouseout="mouseoutPass();"/>
+				</div>
+				<script type="text/javascript">
+				function mouseoverPass(obj) {
+					var obj = document.getElementById('myPassword');
+					obj.type = "text";
+				}
+				function mouseoutPass(obj) {
+					var obj = document.getElementById('myPassword');
+					obj.type = "password";
+				}
+				</script>
+			</div><br>						
+		</form>		
+	</div>
+</body>
+</html>

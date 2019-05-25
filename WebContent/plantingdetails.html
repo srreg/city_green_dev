@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="plantingdetails.css"/>
+<title>City Green</title>
+	<link rel="shortcut icon" type="image/gif/png" href="logot.png"/>
+</head>
+<body>
+	<header>
+	<a href="#" style="cursor: pointer"><img class="logo" src="logot.png"></a>
+	<a class="title" href="#"> City Green</a>
+	<a href="Logout" class="logout">Log out</a>
+	</header>
+		<div class="pagebody">
+		<form action= "PlantingServlet" method="post">
+			<div class="details">
+				<div class="detailshead">
+					<h3 class="msg">	Planting Details .&nbsp;.&nbsp;.</h3><br>
+				</div>
+					<div class="login">						
+						<textarea class="area" title="Enter area details" rows = "7" cols = "65" placeholder="enter area details" id="area_details" name = "areadetails" required="required"></textarea>
+						<input class="inputs" title="Enter no of participants" type="number" placeholder="no of  participants" name ="participants" required="required"/>
+						<input class="inputs" title="Enter no of plants" type="number" placeholder="no of  plants" name ="plants" required="required"/>
+						<input class="inputs" title="Select Date &amp; Time" type="datetime-local" placeholder="Date & Time" name ="datetime" required="required"/>
+						<textarea class="notes" title="Enter any comments" rows = "5" cols = "65" placeholder="notes" name = "notes"></textarea>						
+						<input class="continue" title="Press Continue to Sign Up" onclick="showInput()" type="Submit" value="Submit Details"/>
+						<div class="tnkmsg">
+							<p><span id = "display"></span> </p>
+						</div>
+				</div>
+			</div><br>						
+		</form>
+		<script>
+    	function showInput() {
+        	document.getElementById('display').innerHTML = "Details are recieved by City Green Team" /*document.getElementById("area_details").value;*/
+    	}
+  		</script>
+		</div>
+	</body>
+</html>

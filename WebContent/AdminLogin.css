@@ -1,0 +1,57 @@
+body{
+	height: 695px; width: 100%; background-image: url('adminbg.jpg'); background-size: cover; position: fixed; top: 0; left: 0;
+}
+div.contentpage{
+	height: 450px; width: 75%; float: left; margin-left: 12.5%; margin-top: 8%;
+	border: 0px solid white;
+}
+div.leftside{
+	height: 100%; width: 40%; background-color: rgb(243, 104, 79); float: left; border-top-left-radius: 20px; border-bottom-left-radius: 20px;
+}
+div.rightside{
+	height: 100%; width: 60%; background-color: rgb(231, 225, 225); float: left; border-bottom-right-radius: 20px; border-top-right-radius: 20px;
+}
+div.desc{
+	height: 80%; width: 90%; float: left; margin-left: 5%; margin-top: 10%; border: 0px solid black;
+}
+div.deschead{
+	height: 20%; width: 100%; float: left; border: 0px solid black;
+}
+h2.title{
+	font-family: Arial, Helvetica, sans-serif; letter-spacing: 2px; color: white; font-style: normal; font-size: xx-large;
+}
+div.descbody{
+	height: 40%; width: 100%; float: left; border: 0px solid black;
+}
+h3.caption{
+	font-family: Arial, Helvetica, sans-serif; letter-spacing: 2px; color: white; font-style: normal; font-size: larger;
+}
+p.circle{
+	color: white; letter-spacing: 1px; font-size: 16px;
+}
+div.login{
+	height: 80%; width: 90%; float: left; margin-left: 5%; margin-top: 10%; border: 0px solid black;
+}
+div.loginhead{
+	height: 20%; width: 100%; float: left; border: 0px solid black; font-family: Arial, Helvetica, sans-serif;
+}
+h3.logintitle{
+	font-family: Arial, Helvetica, sans-serif; letter-spacing: 1px; color: rgb(65, 63, 63); font-style: normal; font-size: larger;
+}
+div.loginbody{
+	height: 80%; width: 100%; float: left; border: 0px solid black;
+}
+input.inputname{
+	height: 40px; width: 90%; margin-bottom: 5%; border: none; border-bottom: 1px solid rgb(139, 135, 135);
+	background: none; background-color: transparent;
+}
+input.loginbtn{
+	height: 20px; width: 60px; float: left; border: none; border-radius: 25px; font-size: 15px;
+	border: 1px solid rgb(139, 135, 135);
+}
+.loginbtn:hover{
+	background-color: rgb(243, 104, 79); width: 135px; height: 45px; cursor: pointer; transition: 1s;
+}
+::placeholder {
+	color: rgb(160, 142, 142); font-size: 16px; font-style: normal; font-weight: 500;
+  }

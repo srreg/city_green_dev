@@ -1,0 +1,193 @@
+header{
+    height:30px; width:100%; background-color: #454545; position:fixed; right: 0px; top: 0px; border: none;
+}
+.loginheader{
+	height:28px; width:7%; float: right; border: 0px solid white; 
+}
+img.logini{
+	float:left; margin-top: 3px; margin-right: 5px;
+}
+a.loginh{
+	text-decoration: none; color: rgb(66, 228, 171); font-size: small; font-weight: bolder; margin-top: 8px; text-align: center;
+	font-family: Arial, Helvetica, sans-serif; float:left;
+}
+.loginh:hover{
+	color: white; transition: 0.5s;
+}
+.verticaline{
+	height: 10px; border: 1px solid white; float: right; margin-top: 10px; margin-right: 15px; opacity: 0.8;
+}
+.signupheader{
+	height:28px; width:7%; float: right; border: 0px solid white;
+}
+img.signupi{
+	float:left; margin-top: 6px; margin-right: 5px;
+}
+a.signuph{
+	text-decoration: none; color: rgb(66, 228, 171); font-size: small; font-weight: bolder; margin-top: 8px; text-align: center;
+	font-family: Arial, Helvetica, sans-serif; float:left;
+}
+.signuph:hover{
+	color: white; transition: 0.5s;
+}
+nav{
+    height:78px; width:100%; background-color: black; position:fixed; right: 0px; top: 30px; /*#303030 #bbc6c2;*/ border: none;
+}
+.navimgblock{
+    height :78px; width: 18%; margin-left: 8%; margin-top: 0.2%; cursor: pointer; float: left; border: px solid white; font-family: BrandonGortesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navimgblock img{
+    height :78px; width:56px; margin-top: 0px; float:left;
+}
+a.navtitle{
+	color:rgb(66, 228, 171); font-weight: 350; font-size: 28px;  margin-top: 5px; font-family: BrandonGortesque,Helvetica Neue,Helvetica,Arial,sans-serif; text-decoration: none; /*font-style:oblique;*/
+	float: left;
+}
+.navimgblock h5{
+    height: 21px; width:26%; color: #FDFDFD; border: 0px solid white; margin-left: 80px;
+    font-size: 15px; font-weight: normal; text-align: center;
+}
+nav .rightside{
+    height: 78px; width:71%; border: px solid white; float: left;
+}
+a.volunteer{
+    height:78px; width:15%; margin-right: 10px; text-decoration: none; color: #FDFDFD; font-weight: bolder; font-family: Arial, Helvetica, sans-serif; letter-spacing: 2px;
+    font-size: 15px; float: left; border: 0px solid red; 
+}
+font.vtxt{
+	float: left; margin-top: 23%; margin-left: 12%;
+}
+.volunteer:hover{
+    background-color: #3F3F3F;  cursor: pointer;
+}
+a.achievement{
+    height:78px; width:19%; margin-right: 10px; text-decoration: none; color: #FDFDFD; font-weight: bolder; font-family: Arial, Helvetica, sans-serif; letter-spacing: 2px;
+    font-size: 15px; float: left; border: 0px solid red; 
+}
+font.actxt{
+	float: left; margin-top: 17.5%; margin-left: 12%;
+}
+.achievement:hover{
+    background-color: #3F3F3F;  cursor: pointer;
+}
+a.aboutus{
+    height:78px; width:12%; margin-right: 10px; text-decoration: none; color: #FDFDFD; font-weight: bolder; font-family: Arial, Helvetica, sans-serif; letter-spacing: 2px;
+    font-size: 15px; float: left; border: 0px solid red; 
+}
+font.abtxt{
+	float: left; margin-top: 27%; margin-left: 12%;
+}
+.aboutus:hover{
+    background-color: #3F3F3F;  cursor: pointer;
+}
+.rightside .signin{
+    height:18px; width:17%; margin-top: 30px; border: 1px solid #48CF9F; border-radius:30px; float: right;
+}
+.signin a{
+     margin-top: 24%; margin-left: 12px; margin-top:0.5px; font-size: 15px; text-decoration: none; color: rgb(66, 228, 171); font-weight: 500; letter-spacing: 2px;
+     float: left;
+}
+.signin:hover{
+    background-color: rgb(66, 228, 171); transition: 2s;
+}
+.signin a:hover{
+	color: #FDFDFD; transition: 1s;
+}
+
+
+
+
+
+section{
+	height:800px; width: 100%;
+}
+
+
+
+
+
+
+footer{
+   height:300px; width:100%; background-color: black; /*position:fixed; left: 0px; bottom: 30px;*/
+}
+.disclaimer{
+    height: 30%; width: 73%; margin-top: 3%; margin-left: 14%; border: 0px solid red; text-align: justify; 
+    text-align: center; letter-spacing: 0.5;
+}
+p.description{
+    color: rgb(177, 170, 170); /*rgb(243, 226, 226);*/ font-family: Helvetica, Arial, sans-serif; float: left; margin-left: 5%; line-height: 1.5;
+}
+.footerbody{
+    height: 30%;  width: 70%; margin-left: 15.5%; border: 0px solid rgb(252, 248, 248); float:left; margin-top: 5%;
+}
+div.footerfeild{
+    border: 0px solid green; width: 15%; height: 100%; margin-left: 10%; float: left;
+}
+a.home{
+    height: 15%; width: 100%; border: 0px solid white; color: rgb(247, 255, 255); text-align: center;
+    font-family: Helvetica, Arial, sans-serif; text-decoration: none; margin-bottom: 15%; float: left;
+}
+.disclaimer.home:hover{
+    cursor: pointer; 
+}
+a.aboutusfoot{
+    height: 15%; width: 55%; border: 0px solid white; color: white; margin-left: 25%; margin-top: 9%; 
+    font-family: Helvetica, Arial, sans-serif; text-decoration: none; float: left;
+}
+div.followuson{
+    height: 100%; width: 15%; border: 0px solid green; color:  rgb(243, 226, 226); float: left; margin-left: 16.6%;
+    font-family: Helvetica, Arial, sans-serif; text-align: center;
+}
+a.fblogo{
+   bottom:5px; height: 36%; width: 20%; border: 0px solid yellow; margin-top: 15%; float: left; margin-left: 2.5px; margin-right: 5px;
+}
+a.fblogo.img{
+    height: 123%; width: 123%; margin-top: -6%; float: left; 
+}
+img.fb{
+	heigh: 100%; width: 100%; float: left;
+}
+a.twitlogo{
+    height: 36%; width: 20%; border: 0px solid yellow; margin-top: 17%; float: left; margin-right: 9px;
+}
+a.twitlogo.img{
+    height: 90%; width: 90%; float: left;
+}
+img.twit{
+	heigh: 100%; width: 100%; float: left;
+}
+a.linkedinlogo{
+    height: 36%; width: 20%; border: 0px solid yellow; margin-top: 17%; float: left; margin-right: 7px;
+}
+a.linkedinlogo.img{
+	height: 90%; width: 90%; float: left;
+}
+img.linked{
+	heigh: 100%; width: 85%; float: left;
+}
+a.instagramlogo{
+    height: 36%; width: 20%; float: left; border: 0px solid yellow; margin-top: 19%;
+}
+a.instagramlogo.img{
+    height: 90%; width: 90%; float: left;
+}
+img.insta{
+	heigh: 85%; width: 85%; float: left;
+}
+div.Citylogo{
+    height: 100%; width: 20%; border: 0px solid green; color: white; text-align: center; float: left; margin-left: 16.6%;
+}
+img.logo{
+    height: 30%; width: 15%; float: left; border: 0px solid yellow; margin-top: 10%; cursor: pointer; border: 0px solid yellow;
+}
+a.city{
+    height: 30%; width: 65.5%; font-family: Helvetica, Arial, sans-serif; float: left; border: 0px solid yellow; cursor: pointer; text-decoration: none;
+    color:  rgb(243, 226, 226); margin-top: 10%; font-style: normal; font-weight: bold; font-size: x-large;
+    
+}
+.footerbottom{
+    margin-top: 5%; border: 0px solid white; height: 10%; width: 100%; left: 0;
+}
+.footerbottom p{
+    text-decoration: none; font-size: smaller; margin-left: 6%;
+}

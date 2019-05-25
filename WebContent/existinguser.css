@@ -1,0 +1,12 @@
+body{
+	background-color: tomato;
+}
+h2{
+	height:250px; width:35%; color: white; padding-top:15%; padding-left:5%; float:left;
+}
+.div1{
+	height:600px; width:30%; margin-left:10%; margin-right:0%; float: left;
+}
+.div1 img{
+	margin-top:38%; float:right;
+}
